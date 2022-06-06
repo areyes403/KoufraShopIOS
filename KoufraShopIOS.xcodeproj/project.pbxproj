@@ -7,25 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8DF7AE6FF4E57A4033C7972A /* Pods_KoufraShopIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3269E75CDDCF02CA59FDACA2 /* Pods_KoufraShopIOS.framework */; };
 		F9E06FF7284D2B2200F9D4E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E06FF6284D2B2200F9D4E7 /* AppDelegate.swift */; };
 		F9E06FF9284D2B2200F9D4E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E06FF8284D2B2200F9D4E7 /* SceneDelegate.swift */; };
 		F9E06FFB284D2B2200F9D4E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E06FFA284D2B2200F9D4E7 /* ViewController.swift */; };
-		F9E06FFE284D2B2200F9D4E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9E06FFC284D2B2200F9D4E7 /* Main.storyboard */; };
-		F9E07001284D2B2200F9D4E7 /* KoufraShopIOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9E06FFF284D2B2200F9D4E7 /* KoufraShopIOS.xcdatamodeld */; };
 		F9E07003284D2B2500F9D4E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9E07002284D2B2500F9D4E7 /* Assets.xcassets */; };
 		F9E07006284D2B2500F9D4E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9E07004284D2B2500F9D4E7 /* LaunchScreen.storyboard */; };
+		F9E0700E284D2B5600F9D4E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9E0700D284D2B5600F9D4E7 /* Main.storyboard */; };
+		F9E07010284D2C9A00F9D4E7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9E0700F284D2C9A00F9D4E7 /* GoogleService-Info.plist */; };
+		F9E07025284D2E8A00F9D4E7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E07019284D2E8000F9D4E7 /* ProfileViewController.swift */; };
+		F9E07026284D2E8A00F9D4E7 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E0701A284D2E8100F9D4E7 /* HomeTableViewCell.swift */; };
+		F9E07027284D2E8A00F9D4E7 /* Iphone.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E0701B284D2E8200F9D4E7 /* Iphone.swift */; };
+		F9E07028284D2E8A00F9D4E7 /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E0701C284D2E8300F9D4E7 /* MapsViewController.swift */; };
+		F9E07029284D2E8A00F9D4E7 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9E0701D284D2E8400F9D4E7 /* HomeTableViewCell.xib */; };
+		F9E0702A284D2E8A00F9D4E7 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E0701E284D2E8500F9D4E7 /* ItemViewController.swift */; };
+		F9E0702B284D2E8A00F9D4E7 /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9E0701F284D2E8600F9D4E7 /* NewsTableViewCell.xib */; };
+		F9E0702C284D2E8A00F9D4E7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E07020284D2E8700F9D4E7 /* HomeViewController.swift */; };
+		F9E0702D284D2E8A00F9D4E7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E07021284D2E8800F9D4E7 /* RegisterViewController.swift */; };
+		F9E0702E284D2E8A00F9D4E7 /* ShowNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E07022284D2E8900F9D4E7 /* ShowNewViewController.swift */; };
+		F9E0702F284D2E8A00F9D4E7 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E07023284D2E8900F9D4E7 /* NewsTableViewCell.swift */; };
+		F9E07030284D2E8A00F9D4E7 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E07024284D2E8A00F9D4E7 /* NewsViewController.swift */; };
+		F9E07045284D478600F9D4E7 /* Carrito+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E07043284D478600F9D4E7 /* Carrito+CoreDataClass.swift */; };
+		F9E07046284D478600F9D4E7 /* Carrito+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E07044284D478600F9D4E7 /* Carrito+CoreDataProperties.swift */; };
+		F9E07049284D518A00F9D4E7 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E07047284D518A00F9D4E7 /* User+CoreDataClass.swift */; };
+		F9E0704A284D518A00F9D4E7 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E07048284D518A00F9D4E7 /* User+CoreDataProperties.swift */; };
+		F9E0704C284D650200F9D4E7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E0704B284D650200F9D4E7 /* User.swift */; };
+		F9E0704E284D6A1B00F9D4E7 /* ShopCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E0704D284D6A1B00F9D4E7 /* ShopCart.swift */; };
+		F9E07051284D6BAF00F9D4E7 /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E0704F284D6BAF00F9D4E7 /* CartTableViewCell.swift */; };
+		F9E07052284D6BAF00F9D4E7 /* CartTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9E07050284D6BAF00F9D4E7 /* CartTableViewCell.xib */; };
+		F9E07054284D87C300F9D4E7 /* TablaCarritoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E07053284D87C200F9D4E7 /* TablaCarritoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3269E75CDDCF02CA59FDACA2 /* Pods_KoufraShopIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KoufraShopIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D8EC47B87A161A8E6C555A /* Pods-KoufraShopIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoufraShopIOS.debug.xcconfig"; path = "Target Support Files/Pods-KoufraShopIOS/Pods-KoufraShopIOS.debug.xcconfig"; sourceTree = "<group>"; };
 		F9E06FF3284D2B2200F9D4E7 /* KoufraShopIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KoufraShopIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9E06FF6284D2B2200F9D4E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9E06FF8284D2B2200F9D4E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F9E06FFA284D2B2200F9D4E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F9E06FFD284D2B2200F9D4E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9E07000284D2B2200F9D4E7 /* KoufraShopIOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KoufraShopIOS.xcdatamodel; sourceTree = "<group>"; };
 		F9E07002284D2B2500F9D4E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9E07005284D2B2500F9D4E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9E07007284D2B2500F9D4E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9E0700D284D2B5600F9D4E7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F9E0700F284D2C9A00F9D4E7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F9E07019284D2E8000F9D4E7 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		F9E0701A284D2E8100F9D4E7 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		F9E0701B284D2E8200F9D4E7 /* Iphone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Iphone.swift; sourceTree = "<group>"; };
+		F9E0701C284D2E8300F9D4E7 /* MapsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
+		F9E0701D284D2E8400F9D4E7 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		F9E0701E284D2E8500F9D4E7 /* ItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		F9E0701F284D2E8600F9D4E7 /* NewsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
+		F9E07020284D2E8700F9D4E7 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F9E07021284D2E8800F9D4E7 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		F9E07022284D2E8900F9D4E7 /* ShowNewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowNewViewController.swift; sourceTree = "<group>"; };
+		F9E07023284D2E8900F9D4E7 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		F9E07024284D2E8A00F9D4E7 /* NewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		F9E07043284D478600F9D4E7 /* Carrito+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Carrito+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		F9E07044284D478600F9D4E7 /* Carrito+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Carrito+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		F9E07047284D518A00F9D4E7 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F9E07048284D518A00F9D4E7 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F9E0704B284D650200F9D4E7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F9E0704D284D6A1B00F9D4E7 /* ShopCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCart.swift; sourceTree = "<group>"; };
+		F9E0704F284D6BAF00F9D4E7 /* CartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		F9E07050284D6BAF00F9D4E7 /* CartTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartTableViewCell.xib; sourceTree = "<group>"; };
+		F9E07053284D87C200F9D4E7 /* TablaCarritoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablaCarritoViewController.swift; sourceTree = "<group>"; };
+		FE45A354CDBEE8E5EDFDE0C9 /* Pods-KoufraShopIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoufraShopIOS.release.xcconfig"; path = "Target Support Files/Pods-KoufraShopIOS/Pods-KoufraShopIOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +80,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DF7AE6FF4E57A4033C7972A /* Pods_KoufraShopIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BFFDC237ECF9DC596F16807 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63D8EC47B87A161A8E6C555A /* Pods-KoufraShopIOS.debug.xcconfig */,
+				FE45A354CDBEE8E5EDFDE0C9 /* Pods-KoufraShopIOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		28CC57FA0A391A66294416BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3269E75CDDCF02CA59FDACA2 /* Pods_KoufraShopIOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F9E06FEA284D2B2200F9D4E7 = {
 			isa = PBXGroup;
 			children = (
+				F9E07047284D518A00F9D4E7 /* User+CoreDataClass.swift */,
+				F9E07048284D518A00F9D4E7 /* User+CoreDataProperties.swift */,
+				F9E07043284D478600F9D4E7 /* Carrito+CoreDataClass.swift */,
+				F9E07044284D478600F9D4E7 /* Carrito+CoreDataProperties.swift */,
 				F9E06FF5284D2B2200F9D4E7 /* KoufraShopIOS */,
 				F9E06FF4284D2B2200F9D4E7 /* Products */,
+				1BFFDC237ECF9DC596F16807 /* Pods */,
+				28CC57FA0A391A66294416BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +129,32 @@
 		F9E06FF5284D2B2200F9D4E7 /* KoufraShopIOS */ = {
 			isa = PBXGroup;
 			children = (
+				F9E0701A284D2E8100F9D4E7 /* HomeTableViewCell.swift */,
+				F9E0701D284D2E8400F9D4E7 /* HomeTableViewCell.xib */,
+				F9E07020284D2E8700F9D4E7 /* HomeViewController.swift */,
+				F9E0701B284D2E8200F9D4E7 /* Iphone.swift */,
+				F9E0701E284D2E8500F9D4E7 /* ItemViewController.swift */,
+				F9E0701C284D2E8300F9D4E7 /* MapsViewController.swift */,
+				F9E07023284D2E8900F9D4E7 /* NewsTableViewCell.swift */,
+				F9E0701F284D2E8600F9D4E7 /* NewsTableViewCell.xib */,
+				F9E07024284D2E8A00F9D4E7 /* NewsViewController.swift */,
+				F9E07019284D2E8000F9D4E7 /* ProfileViewController.swift */,
+				F9E07021284D2E8800F9D4E7 /* RegisterViewController.swift */,
+				F9E07022284D2E8900F9D4E7 /* ShowNewViewController.swift */,
+				F9E0700F284D2C9A00F9D4E7 /* GoogleService-Info.plist */,
 				F9E06FF6284D2B2200F9D4E7 /* AppDelegate.swift */,
 				F9E06FF8284D2B2200F9D4E7 /* SceneDelegate.swift */,
 				F9E06FFA284D2B2200F9D4E7 /* ViewController.swift */,
-				F9E06FFC284D2B2200F9D4E7 /* Main.storyboard */,
 				F9E07002284D2B2500F9D4E7 /* Assets.xcassets */,
 				F9E07004284D2B2500F9D4E7 /* LaunchScreen.storyboard */,
 				F9E07007284D2B2500F9D4E7 /* Info.plist */,
 				F9E06FFF284D2B2200F9D4E7 /* KoufraShopIOS.xcdatamodeld */,
+				F9E0700D284D2B5600F9D4E7 /* Main.storyboard */,
+				F9E0704B284D650200F9D4E7 /* User.swift */,
+				F9E0704D284D6A1B00F9D4E7 /* ShopCart.swift */,
+				F9E0704F284D6BAF00F9D4E7 /* CartTableViewCell.swift */,
+				F9E07050284D6BAF00F9D4E7 /* CartTableViewCell.xib */,
+				F9E07053284D87C200F9D4E7 /* TablaCarritoViewController.swift */,
 			);
 			path = KoufraShopIOS;
 			sourceTree = "<group>";
@@ -77,9 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9E0700A284D2B2500F9D4E7 /* Build configuration list for PBXNativeTarget "KoufraShopIOS" */;
 			buildPhases = (
+				0FDA80BC75FA7FEF985788E9 /* [CP] Check Pods Manifest.lock */,
 				F9E06FEF284D2B2200F9D4E7 /* Sources */,
 				F9E06FF0284D2B2200F9D4E7 /* Frameworks */,
 				F9E06FF1284D2B2200F9D4E7 /* Resources */,
+				51B57AD4E0784B166A6F5E89 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,36 +220,91 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9E07006284D2B2500F9D4E7 /* LaunchScreen.storyboard in Resources */,
+				F9E07010284D2C9A00F9D4E7 /* GoogleService-Info.plist in Resources */,
+				F9E07052284D6BAF00F9D4E7 /* CartTableViewCell.xib in Resources */,
 				F9E07003284D2B2500F9D4E7 /* Assets.xcassets in Resources */,
-				F9E06FFE284D2B2200F9D4E7 /* Main.storyboard in Resources */,
+				F9E07029284D2E8A00F9D4E7 /* HomeTableViewCell.xib in Resources */,
+				F9E0702B284D2E8A00F9D4E7 /* NewsTableViewCell.xib in Resources */,
+				F9E0700E284D2B5600F9D4E7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FDA80BC75FA7FEF985788E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KoufraShopIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51B57AD4E0784B166A6F5E89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KoufraShopIOS/Pods-KoufraShopIOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KoufraShopIOS/Pods-KoufraShopIOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KoufraShopIOS/Pods-KoufraShopIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F9E06FEF284D2B2200F9D4E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9E07046284D478600F9D4E7 /* Carrito+CoreDataProperties.swift in Sources */,
+				F9E07045284D478600F9D4E7 /* Carrito+CoreDataClass.swift in Sources */,
+				F9E0702E284D2E8A00F9D4E7 /* ShowNewViewController.swift in Sources */,
+				F9E07026284D2E8A00F9D4E7 /* HomeTableViewCell.swift in Sources */,
+				F9E0702D284D2E8A00F9D4E7 /* RegisterViewController.swift in Sources */,
 				F9E06FFB284D2B2200F9D4E7 /* ViewController.swift in Sources */,
+				F9E07049284D518A00F9D4E7 /* User+CoreDataClass.swift in Sources */,
+				F9E07051284D6BAF00F9D4E7 /* CartTableViewCell.swift in Sources */,
+				F9E07054284D87C300F9D4E7 /* TablaCarritoViewController.swift in Sources */,
+				F9E0702F284D2E8A00F9D4E7 /* NewsTableViewCell.swift in Sources */,
+				F9E07027284D2E8A00F9D4E7 /* Iphone.swift in Sources */,
+				F9E07028284D2E8A00F9D4E7 /* MapsViewController.swift in Sources */,
 				F9E06FF7284D2B2200F9D4E7 /* AppDelegate.swift in Sources */,
+				F9E0702C284D2E8A00F9D4E7 /* HomeViewController.swift in Sources */,
+				F9E07025284D2E8A00F9D4E7 /* ProfileViewController.swift in Sources */,
+				F9E0704A284D518A00F9D4E7 /* User+CoreDataProperties.swift in Sources */,
+				F9E0704C284D650200F9D4E7 /* User.swift in Sources */,
+				F9E0704E284D6A1B00F9D4E7 /* ShopCart.swift in Sources */,
 				F9E06FF9284D2B2200F9D4E7 /* SceneDelegate.swift in Sources */,
-				F9E07001284D2B2200F9D4E7 /* KoufraShopIOS.xcdatamodeld in Sources */,
+				F9E07030284D2E8A00F9D4E7 /* NewsViewController.swift in Sources */,
+				F9E0702A284D2E8A00F9D4E7 /* ItemViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F9E06FFC284D2B2200F9D4E7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F9E06FFD284D2B2200F9D4E7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F9E07004284D2B2500F9D4E7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -286,6 +432,7 @@
 		};
 		F9E0700B284D2B2500F9D4E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63D8EC47B87A161A8E6C555A /* Pods-KoufraShopIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -293,6 +440,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KoufraShopIOS/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Necesito usar tu location";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Necesito tu location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Necesito tu ubicacion";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -313,6 +463,7 @@
 		};
 		F9E0700C284D2B2500F9D4E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE45A354CDBEE8E5EDFDE0C9 /* Pods-KoufraShopIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,6 +471,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KoufraShopIOS/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Necesito usar tu location";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Necesito tu location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Necesito tu ubicacion";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
